@@ -14,25 +14,25 @@ public class Facts
     if(factCat.equals("animal facts"))
       {
          
-      }else if(factCat.equals("history facts"){
+      }else if(factCat.equals("history facts")){
          
          
-      }else if(factCat.equals("travle facts"){
+      }else if(factCat.equals("travle facts")){
          
          
-      }else if(factCat.equals("music facts"){
+      }else if(factCat.equals("music facts")){
          
          
-      }else if(factCat.equals("sports facts"){
+      }else if(factCat.equals("sports facts")){
          
          
-      }else if(factCat.equals("human facts"){
+      }else if(factCat.equals("human facts")){
          
          
-      }else if(factCat.equals("funny facts"){
+      }else if(factCat.equals("funny facts")){
          
          
-      }else if(factCat.equals("miscellaneous facts"){
+      }else if(factCat.equals("miscellaneous facts")){
          
          
       }
