@@ -11,6 +11,31 @@ public class Facts
       String factCat = userIn.nextLine();
       //need to orginise in to whitch cat they whant 
       //and only alow the randome to pull form those
+    if(factCat.equals("animal facts"))
+      {
+         
+      }else if(factCat.equals("history facts"){
+         
+         
+      }else if(factCat.equals("travle facts"){
+         
+         
+      }else if(factCat.equals("music facts"){
+         
+         
+      }else if(factCat.equals("sports facts"){
+         
+         
+      }else if(factCat.equals("human facts"){
+         
+         
+      }else if(factCat.equals("funny facts"){
+         
+         
+      }else if(factCat.equals("miscellaneous facts"){
+         
+         
+      }
    }
 
 
