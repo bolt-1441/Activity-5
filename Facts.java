@@ -9,72 +9,62 @@ public class Facts
     try
     {
         Scanner myReader = new Scanner(file);
-        String[] animalFacts = new String[28];
-        String[] historyFacts = new String[16];
-        String[] travleFacts = new String[17];
-        String[] musicFacts = new String[18];
-        String[] sportFacts = new String[16];
-        String[] humanFacts = new String[24];
-        String[] funnyFacts = new String[65];
-        String[] miscellaneousFacts = new String[13];
+        String[] animal = new String[28];
+        String[] history = new String[16];
+        String[] travel = new String[17];
+        String[] music = new String[18];
+        String[] sport = new String[16];
+        String[] human = new String[24];
+        String[] funny = new String[65];
+        String[] misc = new String[13];
          for(int i = 0; i < 28;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             animal[i] = factcs;
              System.out.println(factcs);
          }      
          for(int i = 0; i < 16;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             historyFacts[i] = factcs;
+             history[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 17;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             travel[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 18;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             music[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 16;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             sport[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 24;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             human[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 65;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             funny[i] = factcs;
              System.out.println(factcs);
          }
          for(int i = 0; i < 13;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
-             animalFacts[i] = factcs;
+             misc[i] = factcs;
              System.out.println(factcs);
-         }    
-           
-
-
-    }
-    catch (FileNotFoundException ex)  
-    {
-        System.out.println("Error finding facts.txt");
-
-    } 
-   }
+         }
 
      public static void main(String[] args)throws FileNotFoundException//amin run methoed was writen by teddy clark
    {
