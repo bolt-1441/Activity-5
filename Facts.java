@@ -9,12 +9,65 @@ public class Facts
     try
     {
         Scanner myReader = new Scanner(file);
-        String[] animalFacts = new String[55];
-         for(int i = 0; i < 55;i++)//this loop reads file and the array 
+        String[] animalFacts = new String[28];
+        String[] historyFacts = new String[16];
+        String[] travleFacts = new String[17];
+        String[] musicFacts = new String[18];
+        String[] sportFacts = new String[16];
+        String[] humanFacts = new String[24];
+        String[] funnyFacts = new String[65];
+        String[] miscellaneousFacts = new String[13];
+         for(int i = 0; i < 28;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
              System.out.println(factcs);
          }      
+         for(int i = 0; i < 16;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             historyFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 17;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 18;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 16;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 24;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 65;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }
+         for(int i = 0; i < 13;i++)//this loop reads file and the array 
+         {
+             String factcs = myReader.nextLine();
+             animalFacts[i] = factcs;
+             System.out.println(factcs);
+         }    
+           
+
+
     }
     catch (FileNotFoundException ex)  
     {
@@ -22,6 +75,7 @@ public class Facts
 
     } 
    }
+
      public static void main(String[] args)throws FileNotFoundException//amin run methoed was writen by teddy clark
    {
       file();//calls static "file()" to create arrays and read file
