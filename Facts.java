@@ -76,31 +76,31 @@ public class Facts
    {
       return animal;
    }
-   public String[] history()
+   public String[] getHistory()
    {
       return history;
    }
-    public String[] travel()
+    public String[] getTravel()
    {
       return travel;
    }
-    public String[] music()
+    public String[] getMusic()
    {
       return music;
    }
-    public String[] sport()
+    public String[] getSport()
    {
       return sport;
    }
-    public String[] human()
+    public String[] getHuman()
    {
       return human;
    }
-    public String[] funny()
+    public String[] getFunny()
    {
       return funny;
    }
-    public String[] misc()
+    public String[] getMisc()
    {
       return misc;
    }
