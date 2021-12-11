@@ -21,49 +21,49 @@ public class Facts
          {
              String factcs = myReader.nextLine();
              animal[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }      
          for(int i = 0; i < 16;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              history[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 17;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              travel[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 18;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              music[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 16;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              sport[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 24;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              human[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 65;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              funny[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          for(int i = 0; i < 13;i++)//this loop reads file and the array 
          {
              String factcs = myReader.nextLine();
              misc[i] = factcs;
-             System.out.println(factcs);
+             //System.out.println(factcs);
          }
          }
     catch (FileNotFoundException ex)  
