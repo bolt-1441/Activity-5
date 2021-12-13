@@ -3,10 +3,10 @@ import java.util.*;
 
 public class FactsRun
 {
-   public static void main(String[] args)throws FileNotFoundException//amin run methoed was writen by teddy clark
+   public static void main(String[] args)throws FileNotFoundException//main run methoed was writen by teddy clark
    {
       Scanner userIn = new Scanner(System.in);
-      System.out.println("Wlecome to the randome facts genaratore!");
+      System.out.println("Welcome to the random facts generator!");
       System.out.println("we have facts about: \nanimals\nhistory\ntravel\nmusic\nsports\nhuman\nfunny\nmiscellaneous");
       Facts arrays = new Facts();
       arrays.file();
@@ -25,7 +25,9 @@ public class FactsRun
          String factCat = userIn.nextLine();//gets the user input on what catagory that they want to learn about
 
          if(factCat.equals("animal facts")){//each if/else if is used for each catagory of facts 
-            System.out.println("We have " + animal.length + " facts about animals.  \nPick a number from 1-" + animal.length);//user pickes what fact to look at
+            int len = animal.length;
+            len--;len--;//used to match up the number tied to the String stored in the array and the number inputed by the user
+            System.out.println("We have " + len + " facts about animals.  \nPick a number from 1-" + len);//user pickes what fact to look at/shows num of facts and what topic
             String fact = userIn.nextLine();
             int index = Integer.parseInt(fact);
             System.out.println(animal[index+1]);//pulls fact from array of the catagory and prints to the screen from user input
@@ -89,7 +91,7 @@ public class FactsRun
             System.out.println(misc[index+1]);
             
          }else if(factCat.equals("stop")){//will end the program if users inputs stop, then prints our names
-            System.out.println("thank you for using the Fact Genorator/nCreated by: Aaron donetaly and Teddy Clark");
+            System.out.println("thank you for using the Fact Generator\nCreated by: Aaron donetaly and Teddy Clark");
             STOP = false;
          }else{
             System.out.println("that is not a corect catgory");//fail safe for wrong user input, just loops the program so that the user can re-try to input a corect catagory
